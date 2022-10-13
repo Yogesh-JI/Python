@@ -1,7 +1,11 @@
-import re
-
-
 n=int(input('enter the number which factorial you wanna find:'))
-for i in range(1,n+1):
-    m=n*i
-print (m) 
+fact=1
+
+while (n>0):
+
+
+    fact=fact*n
+    n=n-1
+print(fact)
+        
+
