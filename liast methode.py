@@ -1,0 +1,6 @@
+s=str(input('enter a word:'))
+print(s[0])
+print(s[-1])
+w=(len(s)/2)
+e=int(w)
+print(s[e])
