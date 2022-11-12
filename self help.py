@@ -1,6 +1,6 @@
-t=1
-while True:
-    if t%2 !=0:
-        break
-    print(t)    
-    t +=1
+n=int(input())
+for i in range(n+1):
+    for j in range(n,0,-1):
+        if i*j==n:
+            print(i,end=' ')
+            
