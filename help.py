@@ -1,6 +1,9 @@
+import math as m
+
 h=int(input())
-g=int(input())
-for i in range(h,g+1):
+g='{:.3f}'.format(m.log(h,2))
+print (g)
+
   
     
         
