@@ -23,4 +23,5 @@ def ram(*siya):
 ram('ghar','lol',9,0.5,3+5j)    
 
 
-
+import math
+print(math.sqrt(25))
