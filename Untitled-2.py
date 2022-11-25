@@ -1,4 +1,4 @@
-integerVariable=10
-floatVariable=10.5
-stringVariable='you are nobody'
-print(integerVariable,floatVariable,stringVariable)
+i=1
+while i<5:
+    print(i)
+    i+=i

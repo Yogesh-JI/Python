@@ -1,6 +1,12 @@
-y=6
-h=10.5
-j="why are you here"
-if 5<h:
-    print('true')
-print (y,h,j)
+s='ergweggqe'
+c=[]
+r1=''
+for i in s:
+    k=i
+    c.append(k)
+c.pop(1)
+c.insert(1,'y')
+print(c)
+for j in c:
+    r1+=j
+print (r1)    
