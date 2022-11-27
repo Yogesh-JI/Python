@@ -1,4 +1,4 @@
-numbers=[1,4,45,564,656,54,48,498,]
+numbers=[1,4,45,564,656,54,48,498]
 cars=['tata','nano','hundai']
 print(len(numbers))
 print(max(numbers))         #only work when data types are same
@@ -28,8 +28,8 @@ cars.sort(reverse=True)
 print(numbers)
 print(cars)
 
-
+numbers.remove()
 num1=numbers.copy()
 # now the NUMBERS has been copied in num1 and its a list
-
+del (numbers)        #delete entire list
 
