@@ -19,3 +19,8 @@ print(h)
 
 print(h.keys())
 print(h.values())
+k=h.values()
+
+for i in k:
+    print(i)
+    print(type(i))
